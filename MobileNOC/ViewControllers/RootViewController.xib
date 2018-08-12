@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad10_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RootViewController" customModule="MobileNOC" customModuleProvider="target">
+            <connections>
+                <outlet property="contentsTableView" destination="kuz-Y7-ydJ" id="UOw-lN-Wrt"/>
+                <outlet property="customNavBar" destination="uuu-Mo-Fd2" id="XgZ-k3-2cY"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OBJ-lN-2ut">
+                    <rect key="frame" x="0.0" y="20" width="1112" height="814"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SoT-fN-4rD">
+                            <rect key="frame" x="0.0" y="0.0" width="79.5" height="814"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rlogo" translatesAutoresizingMaskIntoConstraints="NO" id="c1V-rG-pEc">
+                                    <rect key="frame" x="8" y="10" width="64" height="62"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="62" id="n2F-ei-FHF"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="10"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </imageView>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_avatar" translatesAutoresizingMaskIntoConstraints="NO" id="07d-dh-yvS">
+                                    <rect key="frame" x="10" y="714" width="59.5" height="60"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="60" id="shz-IE-Vhp"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="30"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.16470588235294117" green="0.20784313725490194" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="07d-dh-yvS" secondAttribute="trailing" constant="10" id="Gvf-N1-lo3"/>
+                                <constraint firstAttribute="bottom" secondItem="07d-dh-yvS" secondAttribute="bottom" constant="40" id="MOr-H8-HPv"/>
+                                <constraint firstAttribute="trailing" secondItem="c1V-rG-pEc" secondAttribute="trailing" constant="8" id="aJJ-kQ-jzu"/>
+                                <constraint firstItem="07d-dh-yvS" firstAttribute="leading" secondItem="SoT-fN-4rD" secondAttribute="leading" constant="10" id="aXO-5J-MtZ"/>
+                                <constraint firstItem="c1V-rG-pEc" firstAttribute="top" secondItem="SoT-fN-4rD" secondAttribute="top" constant="10" id="dUl-Pb-rXZ"/>
+                                <constraint firstItem="c1V-rG-pEc" firstAttribute="leading" secondItem="SoT-fN-4rD" secondAttribute="leading" constant="8" id="fZg-89-qFa"/>
+                            </constraints>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pJb-Fb-oex">
+                            <rect key="frame" x="79.5" y="0.0" width="1032.5" height="814"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uuu-Mo-Fd2">
+                                    <rect key="frame" x="0.0" y="0.0" width="1032.5" height="65"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="65" id="ruE-bu-n14"/>
+                                    </constraints>
+                                </view>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="64" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kuz-Y7-ydJ">
+                                    <rect key="frame" x="10" y="75" width="1012.5" height="739"/>
+                                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <inset key="scrollIndicatorInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                                    <color key="sectionIndexBackgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="oNX-UI-r7a"/>
+                                        <outlet property="delegate" destination="-1" id="8iJ-Yp-9yq"/>
+                                    </connections>
+                                </tableView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="uuu-Mo-Fd2" secondAttribute="trailing" id="Ap6-Vb-97t"/>
+                                <constraint firstItem="uuu-Mo-Fd2" firstAttribute="leading" secondItem="pJb-Fb-oex" secondAttribute="leading" id="Clv-39-sPE"/>
+                                <constraint firstItem="kuz-Y7-ydJ" firstAttribute="leading" secondItem="pJb-Fb-oex" secondAttribute="leading" constant="10" id="Hbs-0x-PQA"/>
+                                <constraint firstAttribute="bottom" secondItem="kuz-Y7-ydJ" secondAttribute="bottom" id="MOl-fW-MNX"/>
+                                <constraint firstItem="uuu-Mo-Fd2" firstAttribute="top" secondItem="pJb-Fb-oex" secondAttribute="top" id="Nk9-gE-WxZ"/>
+                                <constraint firstAttribute="trailing" secondItem="kuz-Y7-ydJ" secondAttribute="trailing" constant="10" id="b1R-vt-h9w"/>
+                                <constraint firstItem="kuz-Y7-ydJ" firstAttribute="top" secondItem="uuu-Mo-Fd2" secondAttribute="bottom" constant="10" id="jF9-Jq-I4W"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="SoT-fN-4rD" firstAttribute="width" secondItem="OBJ-lN-2ut" secondAttribute="width" multiplier="1:14" id="3T3-HS-q0w"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="OBJ-lN-2ut" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="BFd-cz-Ca7"/>
+                <constraint firstItem="OBJ-lN-2ut" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="DrK-ZK-U5j"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="OBJ-lN-2ut" secondAttribute="trailing" id="i0G-5G-QNF"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="OBJ-lN-2ut" secondAttribute="bottom" id="mr9-IW-Cfx"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Rlogo" width="53" height="53"/>
+        <image name="img_avatar" width="250" height="250"/>
+    </resources>
+</document>
