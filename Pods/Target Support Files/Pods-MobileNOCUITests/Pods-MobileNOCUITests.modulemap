@@ -1,0 +1,6 @@
+framework module Pods_MobileNOCUITests {
+  umbrella header "Pods-MobileNOCUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

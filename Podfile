@@ -16,5 +16,13 @@ target 'MobileNOCTests' do
     inherit! :search_paths
     # Pods for testing
     pod 'Alamofire', '~> 4.7'
+    pod 'HandyJSON', '~> 4.1.1'
+end
+
+target 'MobileNOCUITests' do
+    inherit! :search_paths
+    # Pods for testing
+    pod 'Alamofire', '~> 4.7'
+    pod 'HandyJSON', '~> 4.1.1'
 end
 end

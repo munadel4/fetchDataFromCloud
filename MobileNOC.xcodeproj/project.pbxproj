@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		171760426AB4622F0CDE8535 /* Pods_MobileNOCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6E62AF467D33A9EB5FEA3F /* Pods_MobileNOCTests.framework */; };
+		5F5491CAFCF8ACE93CA5D18F /* Pods_MobileNOCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F268F8C69A104F3475B1907 /* Pods_MobileNOCUITests.framework */; };
 		60045EB5211F8911001216D2 /* CustomNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60045EB3211F8911001216D2 /* CustomNavigationBarView.swift */; };
 		60045EB6211F8911001216D2 /* CustomNavigationBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60045EB4211F8911001216D2 /* CustomNavigationBarView.xib */; };
 		60406B05211E01AB000387B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60406B04211E01AB000387B1 /* AppDelegate.swift */; };
@@ -25,6 +27,7 @@
 		60406B4B211F34B6000387B1 /* ContentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60406B49211F34B6000387B1 /* ContentsTableViewCell.swift */; };
 		60406B4C211F34B6000387B1 /* ContentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60406B4A211F34B6000387B1 /* ContentsTableViewCell.xib */; };
 		60BF7D06211FA513007C95AC /* uiviewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF7D05211FA513007C95AC /* uiviewExtension.swift */; };
+		83FA8980D733ED7CC217DACA /* Pods_MobileNOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E914124506225625FB5A63F /* Pods_MobileNOC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,8 @@
 		1E6A8B3282CEF15F4DB33D76 /* Pods-MobileNOCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileNOCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileNOCTests/Pods-MobileNOCTests.release.xcconfig"; sourceTree = "<group>"; };
 		1F5722B29C518B6E92AA15AE /* Pods-MobileNOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileNOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileNOC/Pods-MobileNOC.debug.xcconfig"; sourceTree = "<group>"; };
 		468671A0FA47F6FE38B5F050 /* Pods-MobileNOCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileNOCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileNOCTests/Pods-MobileNOCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D4E7B06B65B05AB81FFF2CB /* Pods-MobileNOCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileNOCUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileNOCUITests/Pods-MobileNOCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F268F8C69A104F3475B1907 /* Pods_MobileNOCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileNOCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60045EB3211F8911001216D2 /* CustomNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBarView.swift; sourceTree = "<group>"; };
 		60045EB4211F8911001216D2 /* CustomNavigationBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomNavigationBarView.xib; sourceTree = "<group>"; };
 		60406B01211E01AB000387B1 /* MobileNOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileNOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +76,9 @@
 		60406B49211F34B6000387B1 /* ContentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsTableViewCell.swift; sourceTree = "<group>"; };
 		60406B4A211F34B6000387B1 /* ContentsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentsTableViewCell.xib; sourceTree = "<group>"; };
 		60BF7D05211FA513007C95AC /* uiviewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uiviewExtension.swift; sourceTree = "<group>"; };
+		8B6E62AF467D33A9EB5FEA3F /* Pods_MobileNOCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileNOCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E914124506225625FB5A63F /* Pods_MobileNOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileNOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2F244AE950C233DE14E30F /* Pods-MobileNOCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileNOCUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileNOCUITests/Pods-MobileNOCUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83FA8980D733ED7CC217DACA /* Pods_MobileNOC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				171760426AB4622F0CDE8535 /* Pods_MobileNOCTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F5491CAFCF8ACE93CA5D18F /* Pods_MobileNOCUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +206,9 @@
 		AE8B0735E5D3606F42FE74ED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9E914124506225625FB5A63F /* Pods_MobileNOC.framework */,
+				8B6E62AF467D33A9EB5FEA3F /* Pods_MobileNOCTests.framework */,
+				5F268F8C69A104F3475B1907 /* Pods_MobileNOCUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -206,6 +220,8 @@
 				08DFA2D5DBE4720FB5913860 /* Pods-MobileNOC.release.xcconfig */,
 				468671A0FA47F6FE38B5F050 /* Pods-MobileNOCTests.debug.xcconfig */,
 				1E6A8B3282CEF15F4DB33D76 /* Pods-MobileNOCTests.release.xcconfig */,
+				4D4E7B06B65B05AB81FFF2CB /* Pods-MobileNOCUITests.debug.xcconfig */,
+				FA2F244AE950C233DE14E30F /* Pods-MobileNOCUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -256,9 +272,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60406B2F211E01AC000387B1 /* Build configuration list for PBXNativeTarget "MobileNOCUITests" */;
 			buildPhases = (
+				26BBF531D08C6230B1E07A0A /* [CP] Check Pods Manifest.lock */,
 				60406B1C211E01AC000387B1 /* Sources */,
 				60406B1D211E01AC000387B1 /* Frameworks */,
 				60406B1E211E01AC000387B1 /* Resources */,
+				6742B64149DB02DA107304EE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -345,6 +363,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		26BBF531D08C6230B1E07A0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileNOCUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		29CE8D03A91FAC6F3860A1A7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -361,6 +397,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6742B64149DB02DA107304EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MobileNOCUITests/Pods-MobileNOCUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileNOCUITests/Pods-MobileNOCUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8CFC3E1A1F8C92DC0A50E32B /* [CP] Embed Pods Frameworks */ = {
@@ -409,10 +465,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MobileNOCTests/Pods-MobileNOCTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -681,6 +739,7 @@
 		};
 		60406B30211E01AC000387B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D4E7B06B65B05AB81FFF2CB /* Pods-MobileNOCUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -701,6 +760,7 @@
 		};
 		60406B31211E01AC000387B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA2F244AE950C233DE14E30F /* Pods-MobileNOCUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
